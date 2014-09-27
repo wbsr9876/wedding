@@ -1,0 +1,9 @@
+AUX_SOURCE_DIRECTORY(./ SRC)
+
+INCLUDE_DIRECTORIES("../../RakNet/Source")
+
+LINK_DIRECTORIES("../../RakNet/Lib/DLL")
+
+ADD_EXECUTABLE(server ${SRC})
+
+TARGET_LINK_LIBRARIES(server pthread RakNetDLL)
