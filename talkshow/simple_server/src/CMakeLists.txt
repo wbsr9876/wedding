@@ -1,8 +1,8 @@
 AUX_SOURCE_DIRECTORY(./ SRC)
 
-INCLUDE_DIRECTORIES("../../RakNet/include/raknet")
+INCLUDE_DIRECTORIES("../../../depends/RakNet/include/raknet")
 
-LINK_DIRECTORIES("../../RakNet/Lib/DLL")
+LINK_DIRECTORIES("../../../depends/RakNet/Lib/DLL")
 
 ADD_EXECUTABLE(server ${SRC})
 
