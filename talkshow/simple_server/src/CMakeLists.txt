@@ -1,6 +1,6 @@
 AUX_SOURCE_DIRECTORY(./ SRC)
 
-INCLUDE_DIRECTORIES("../../RakNet/Source")
+INCLUDE_DIRECTORIES("../../RakNet/include/raknet")
 
 LINK_DIRECTORIES("../../RakNet/Lib/DLL")
 
