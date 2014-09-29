@@ -8,5 +8,5 @@ public class NetCore {
 	public native int Connect(String ip,char port);
 	public native int Stop();
 	public native int Send();
-	public native int Recv();
+	public native int Recv(byte[] data);
 }

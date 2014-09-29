@@ -42,10 +42,10 @@ JNIEXPORT jint JNICALL Java_com_example_tomydear_NetCore_Send
 /*
  * Class:     com_example_tomydear_NetCore
  * Method:    Recv
- * Signature: ()I
+ * Signature: ([B)I
  */
 JNIEXPORT jint JNICALL Java_com_example_tomydear_NetCore_Recv
-  (JNIEnv *, jobject);
+  (JNIEnv *, jobject, jbyteArray);
 
 #ifdef __cplusplus
 }

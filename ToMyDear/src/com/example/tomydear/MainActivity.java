@@ -8,7 +8,9 @@ import android.view.Menu;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
-
+	static {
+		new NetThread().start();
+	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -18,7 +20,7 @@ public class MainActivity extends Activity {
         endTime.set(2013, 3 - 1, 3, 21, 00);
         Calendar currTime = Calendar.getInstance();
         if (currTime.before(endTime) && currTime.after(startTime))
-        {
+      {
         	setContentView(R.layout.activity_main);
         	
         	Button yesButton = (Button)findViewById(R.id.button1);
@@ -35,7 +37,6 @@ public class MainActivity extends Activity {
         {
         	setContentView(R.layout.activity_main_wrong_time);
         }
-        new NetThread().start();
 	}
 
 	@Override
