@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToMyDear</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_correct_time">还不是时候哦！</string>
+    <string name="step_1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;亲爱的迟钰博小姐，你现在应该站在爱河岸边吧，今天是我们彼此认识的第880天。在这880天里，我们互相了解、互相体谅、互相关心、互相扶持，彼此相亲相爱。在这爱河之畔，你是否愿意聆听我接下来的请求呢？</string>
+    <string name="yes_button">是</string>
+    <string name="no_button">否</string>
+    <string name="step_2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;你忍心这么对我么?再考虑考虑吧!在这爱河之畔是否愿意聆听我的请求呢?</string>
+    <string name="step_3"/>
+</resources>
